@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  slogan : string = 'Your one stop shop for everything';
+  source : string = "assets/image.jpg" ;
+
+  getslogan(){
+    return 'This is a new slogan for this web application'
+  }
 }
